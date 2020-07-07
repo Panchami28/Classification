@@ -39,7 +39,7 @@ y=cars.loc[:,'am']
 from sklearn import preprocessing 
 X=preprocessing.scale(X)
 ```
-Splitting the dataset into training and testing
+Splitting the dataset into training and testing data
 
 ```markdown
 from sklearn.model_selection import train_test_split

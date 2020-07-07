@@ -7,7 +7,7 @@ Example: Suppose, we have an image of a creature that looks similar to cat and d
 
 ### Implementation of KNN using python
 
-Initially import the standard libraries
+Importing the standard libraries
 
 ```markdown
 
@@ -17,7 +17,21 @@ import matplotlib.pyplot as plt
 import numpy as np
 %matplotlib inline
 
-Syntax highlighted code block
+
+```
+
+Loading the dataset
+
+```markdown
+
+cars=pd.read_csv("mtcars.txt")
+cars.head()
+cars.columns
+
+#checking for missing values
+cars.isnull().sum()
+
+```
 
 # Header 1
 ## Header 2
@@ -32,7 +46,6 @@ Syntax highlighted code block
 **Bold** and _Italic_ and `Code` text
 
 [Link](url) and ![Image](src)
-```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 

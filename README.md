@@ -9,7 +9,7 @@
 
 Importing the standard libraries
 
-``` Ruby
+```markdown
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
@@ -90,8 +90,7 @@ print(classification_report(y_test,pred))
 ```
 
 WITH K=1
-[[6 1]
- [0 3]]
+`
               precision    recall  f1-score   support
 
            0       1.00      0.86      0.92         7
@@ -100,12 +99,11 @@ WITH K=1
     accuracy                           0.90        10
    macro avg       0.88      0.93      0.89        10
 weighted avg       0.93      0.90      0.90        10
-
+`
 
 WITH K=5
-[[5 2]
- [2 1]]
-               precision    recall  f1-score   support
+`
+      precision    recall  f1-score   support
 
            0       0.71      0.71      0.71         7
            1       0.33      0.33      0.33         3
@@ -113,7 +111,7 @@ WITH K=5
     accuracy                           0.60        10
    macro avg       0.52      0.52      0.52        10
 weighted avg       0.60      0.60      0.60        10
-
+`
 
 - Bulleted
 - List

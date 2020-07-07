@@ -9,7 +9,7 @@
 
 Importing the standard libraries
 
-```markdown
+``` Ruby
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt

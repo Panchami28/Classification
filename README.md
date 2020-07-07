@@ -5,7 +5,7 @@
 
 **Example:** Suppose, we have an image of a creature that looks similar to cat and dog, but we want to know either it is a cat or dog. So for this identification, we can use the KNN algorithm, as it works on a similarity measure. Our KNN model will find the similar features of the new data set to the cats and dogs images and based on the most similar features it will put it in either cat or dog category.
 
-![Image](https://medium.com/@equipintelligence/k-nearest-neighbor-classifier-knn-machine-learning-algorithms-ed62feb86582)
+![Image](https://1.bp.blogspot.com/-0wuBs1qELhQ/XPaibea6VKI/AAAAAAAAEfg/JZjBM3qL9QoVQB59NbzUL5s8AFD3ZfgqQCLcBGAs/s1600/KNN.png)
 
 ### Implementation of KNN using python
 

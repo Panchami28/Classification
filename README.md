@@ -33,6 +33,31 @@ cars.isnull().sum()
 
 ```
 
+Processing the data
+
+```markdown
+X=cars.loc[:,['mpg','wt','hp','gear','cyl']]
+y=cars.loc[:,'am']
+
+from sklearn import preprocessing 
+X=preprocessing.scale(X)
+```
+Splitting the dataset into training and testing
+
+```markdown
+from sklearn.model_selection import train_test_split
+X_train,X_test,y_train,y_test=train_test_split(X,y,test_size=0.3,random_state=10)
+X_train.shape
+```
+
+Trainig the model using KNN
+
+```markdown
+from sklearn.neighbors import KNeighborsClassifier
+model_knn =KNeighborsClassifier(n_neighbors=1)
+#Training the model
+model_knn.fit(X_train,y_train)
+```
 # Header 1
 ## Header 2
 ### Header 3

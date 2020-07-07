@@ -90,45 +90,23 @@ print(classification_report(y_test,pred))
 ```
 
 WITH K=1
-`
-              precision    recall  f1-score   support
 
            0       1.00      0.86      0.92         7
            1       0.75      1.00      0.86         3
 
     accuracy                           0.90        10
-   macro avg       0.88      0.93      0.89        10
-weighted avg       0.93      0.90      0.90        10
-`
+      
+
 
 WITH K=5
-`
-      precision    recall  f1-score   support
-
+ 
            0       0.71      0.71      0.71         7
            1       0.33      0.33      0.33         3
 
     accuracy                           0.60        10
-   macro avg       0.52      0.52      0.52        10
-weighted avg       0.60      0.60      0.60        10
-`
+  
+  **Therefore clearly The ideal value for k is 1**
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Panchami28/class/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.

@@ -5,11 +5,18 @@ K-Nearest Neighbors (KNN) is one of the simplest algorithms used in Machine Lear
 
 Example: Suppose, we have an image of a creature that looks similar to cat and dog, but we want to know either it is a cat or dog. So for this identification, we can use the KNN algorithm, as it works on a similarity measure. Our KNN model will find the similar features of the new data set to the cats and dogs images and based on the most similar features it will put it in either cat or dog category.
 
-### Markdown
+### Implementation of KNN using python
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Initially import the standard libraries
 
 ```markdown
+
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+import numpy as np
+%matplotlib inline
+
 Syntax highlighted code block
 
 # Header 1

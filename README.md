@@ -8,6 +8,12 @@
 ![Image](https://1.bp.blogspot.com/-0wuBs1qELhQ/XPaibea6VKI/AAAAAAAAEfg/JZjBM3qL9QoVQB59NbzUL5s8AFD3ZfgqQCLcBGAs/s1600/KNN.png)
 
 ### Implementation of KNN using python
+In this example we shall see how to classify and predict cars using the KNN algorithm.
+We will be using mtcars dataset for this example.
+Click [here](https://github.com/Panchami28/Classification/blob/master/mtcars.txt) to download the dataset
+Description of Motor Trend Car Road Tests (mtcars):
+The data was extracted from the 1974 Motor Trend US magazine, and comprises fuel consumption and 10 aspects of automobile design and performance for 32 automobiles (1973–74 models)
+Here we predict whether the car has automatic or manual transmission based on certain set of parameters like number of gears and carburetors.
 
 Importing the standard libraries
 
